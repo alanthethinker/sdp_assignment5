@@ -7,7 +7,7 @@ import com.game.strategy.MeleeStrategy;
 import com.game.visitor.EffectVisitor;
 
 public class Character {
-    private String name;
+    private final String name;
     private CharacterState state;
     private FightingStrategy strategy;
     private int health = 100;
